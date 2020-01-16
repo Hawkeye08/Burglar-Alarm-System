@@ -87,7 +87,7 @@ void loop() {
     lcd.print("Correct Tag");
     lcd.setCursor(0, 1);
     lcd.print("Access Granted");
-    digitalWrite(13,HIGH); // Setting the Buzzer to ring
+    digitalWrite(13,HIGH); // Set internal LED of Arduino UNO to light up
     delay(10000);
     digitalWrite(13,LOW);
     lcd.clear();
